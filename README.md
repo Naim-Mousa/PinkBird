@@ -11,6 +11,11 @@ At PinkBird, we are offering, typically women-identifying, consumers:
 - The chance to make educated decisions when purchasing products
 - And lastly, for ease, recommendations of products that match what they are looking for at the fraction of the cost
 
+## Link for Deployment
+Link: https://pinkbird-app.netlify.app/
+
+Note: Application looks/works best on mobile.
+
 ## Main Functions and Technologies
 
 ### Functions

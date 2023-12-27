@@ -13,7 +13,7 @@ function Explore() {
     const[data, setData] = useState([])
 
     useEffect(() => {
-      fetch("/ProductData").then(
+      fetch("https://pinkbird-deployment.onrender.com/ProductData").then(
         response => response.json()
       ).then(
         data => {
@@ -29,7 +29,7 @@ function Explore() {
           ): (
               data.products?.map((product, index)=> (
                 <div className="Explore-body">
-                  <img src={url}/>
+                  <img src={product.image}/>
                   <p>
                     <Link style={linkStyle} to={"/Item/" + product.barcode}>
                       {product.name}
